@@ -1,0 +1,14 @@
+
+<div  class="row row-cols-1 row-cols-md-5 g-4">
+
+    <div *ngFor="let i of menu" class="card" style="width: 18rem;">
+        <img class="card-img-top" src="{{i.URL}}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">{{i.titulo}}</h5>
+          <p class="D card-text">{{i.description}}</p>
+          <button (click)="add(i.id)"  class="btn btn-primary">Ordenar</button>
+        </div>
+      </div>
+
+
+</div>

@@ -1,0 +1,42 @@
+
+.page-footer {
+    
+    /*position: absolute;*/
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    
+    
+    
+  }
+
+
+  .list-unstyled{
+     font-weight: bold;
+     font-size: x-large;
+     color: rgb(14, 13, 13);
+     
+     
+  }
+
+
+  .footer-copyright {
+      font-size: x-large;
+      background: black
+  }
+
+ .titulo{
+     font-size: xx-large;
+     font-family: 'Alfa Slab One', cursive;
+     
+
+ }
+
+ .logan{
+     font-size: xx-large;
+     font-family: 'Alfa Slab One', cursive;
+     
+     
+ }
+
